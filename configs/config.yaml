@@ -1,0 +1,6 @@
+server:
+  port: 8080
+  env: development
+
+database:
+  dsn: "user:password@tcp(localhost:3306)/dbname?parseTime=true"
